@@ -102,7 +102,7 @@ export default {
           "@apply font-semibold text-lg leading-8": {},
         },
         ".body-1": {
-          "@apply text-[0.875rem] leading-[1.5rem] md:text-[1rem] md:leading-[1.75rem] lg:text-[1.25rem] lg:leading-8":
+          "@apply text-[0.8rem] leading-[1.5rem] lg:text-[.87rem] lg:leading-[1.5rem]":
             {},
         },
         ".body-2": {

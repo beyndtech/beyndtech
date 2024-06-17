@@ -1,7 +1,7 @@
 import Section from "../components/Section";
 import Heading from "../components/Heading";
 import { service1, service2, service3, check } from "../assets";
-import { brainwaveServices, brainwaveServicesIcons } from "../constants";
+import { brainwaveServicesIcons } from "../constants";
 import {
   PhotoChatMessage,
   Gradient,
@@ -13,10 +13,10 @@ import Generating from "../components/Generating";
 
 const Services = () => {
   return (
-    <Section id="how-to-use">
+    <Section id="who we are">
       <div className="container">
         <Heading
-          title="Generative AI made for creators."
+          title="Scale Your Business."
           text="Beyndtech unlocks the potential of AI-powered applications"
         />
 
@@ -32,13 +32,13 @@ const Services = () => {
               />
             </div>
 
-            <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Smartest AI</h4>
-              <p className="body-2 mb-[3rem] text-n-3">
-                Beyndtech unlocks the potential of AI-powered applications
+            <div className="relative z-1 max-w-[20rem] ml-auto">
+              <h4 className="h4 mb-4">Who We Are</h4>
+              <p className="body-1 mb-[3rem] text-n-3">
+              Beyndtech offers enterprise-scale software and product development services that allow organizations to innovate quickly, and easily create and launch powerful user experiences that modernize your brand. Partnering with Beyndtech provides customers a full-service team to solve complex technology problems with proven solutions, including cutting-edge AI API integrations.
               </p>
               <ul className="body-2">
-                {brainwaveServices.map((item, index) => (
+                {["Timeframe Adherence", "Appealing User Experience", "Perfect Pricing"].map((item, index) => (
                   <li
                     key={index}
                     className="flex items-start py-4 border-t border-n-6"
@@ -80,7 +80,7 @@ const Services = () => {
               <div className="py-12 px-4 xl:px-8">
                 <h4 className="h4 mb-4">Video generation</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  The world’s most powerful AI photo and video art generation
+                  The world's most powerful AI photo and video art generation
                   engine. What will you create?
                 </p>
 

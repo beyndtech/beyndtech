@@ -7,8 +7,8 @@ import {
   chromecast,
   disc02,
   discord,
-  discordBlack,
-  facebook,
+  linkedin,
+  whatsapp,
   figma,
   file02,
   framer,
@@ -44,13 +44,13 @@ export const navigation = [
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "Who We Are",
+    url: "#who we are",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Pricing",
+    url: "#pricing",
   },
   {
     id: "3",
@@ -128,13 +128,13 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Enhance productivity with smart automation & top-notch security, the perfect solution for Micro - Large businesses.";
 
 export const collabContent = [
   {
     id: "0",
     title: "Seamless Integration",
-    text: collabText,
+    text: "Hassle free AI integration for all business software using third-party APIs.",
   },
   {
     id: "1",
@@ -209,34 +209,34 @@ export const pricing = [
   {
     id: "0",
     title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
+    description: "Static Web-pages, Suitable for small business owners",
+    price: "100",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Free Domain, Not Personalized",
+      "Superb User Experience",
+      "No database, Server, Custom Email and Hosting.",
     ],
   },
   {
     id: "1",
     title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    description: "Full Stack Services for medium business owners",
+    price: "500",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Custom Domain and Email Valid for 1yr",
+      "Hosting Services and Database Services if needed",
+      "Continous Project Management.",
     ],
   },
   {
     id: "2",
     title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    description: "For all business classification, Ideas and Collaboration.",
     price: null,
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Custom Domain, Email and Hosting, Valid for 1yr",
+      "Personalized Software with Cross-platform Compatibility.",
+      "Robust Technology Services and Branding.",
     ],
   },
 ];
@@ -253,7 +253,7 @@ export const benefits = [
   {
     id: "1",
     title: "Analytics",
-    text: "Empower clients with data tools like analytics dashboards, reporting, predictive analytics for informed decision-making, driving growth initiatives.",
+    text: "Empower clients with data tools like analytics dashboards, reporting, predictive analytics for informed decision-making.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -272,7 +272,7 @@ export const benefits = [
     title: "Support",
     text: "Offer comprehensive support, including onboarding, documentation, tutorials, and responsive customer service for all growth stages.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
+    iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
     light: true,
   },
@@ -281,7 +281,7 @@ export const benefits = [
     title: "Innovation",
     text: "Continuously innovate with updates and enhancements, meeting client needs and maintaining competitiveness in evolving markets.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
+    iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
   },
   {
@@ -297,32 +297,32 @@ export const benefits = [
 export const socials = [
   {
     id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
-    url: "#",
+    title: "Whatsapp",
+    iconUrl: whatsapp,
+    url: "https://wa.me/2348086941101",
   },
   {
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "#",
+    url: "https://x.com/beyndtech",
   },
   {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "https://www.instagram.com/beyndtech",
   },
   {
     id: "3",
     title: "Telegram",
     iconUrl: telegram,
-    url: "#",
+    url: "http://t.me/beyndtech",
   },
   {
     id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
-    url: "#",
+    title: "LinkedIn",
+    iconUrl: linkedin,
+    url: "https://www.linkedin.com/in/beyndtech",
   },
 ];

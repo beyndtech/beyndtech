@@ -1,4 +1,3 @@
-import Button from "../components/Button";
 import Heading from "../components/Heading";
 import Section from "../components/Section";
 import Tagline from "../components/Tagline";
@@ -66,10 +65,6 @@ const Roadmap = () => (
         })}
 
         <Gradient />
-      </div>
-
-      <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-        <Button href="/roadmap">Our roadmap</Button>
       </div>
     </div>
   </Section>

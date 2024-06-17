@@ -14,16 +14,52 @@ const Hero = () => {
 
   return (
     <Section
-      className="pt-[12rem] -mt-[5.25rem]"
+      className="pt-[6rem] -mt-[5.25rem]"
       crosses
       crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings
       id="hero"
     >
       <div className="container relative" ref={parallaxRef}>
+        <div className="relative z-1 w-full h-[80vh] rounded-[20px] overflow-hidden mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[8.25rem]">
+          <video
+            className="absolute top-0 left-0 w-full h-full object-cover"
+            src="https://www.itransition.com/static/e66860518af2f2ff66db0853bb7aa322/header-video.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+          ></video>
+
+          <div className="relative z-1 bg-[#01010280] flex flex-col items-center justify-center w-full h-full mx-auto text-center">
+            <h1 className="h1 mb-6">
+              {" "}
+              {` `}
+              Scale Your Business <br /> One Algorithm at a Time!{" "}
+            </h1>
+            <img
+              src={curve}
+              className="w-[55%] h-5 xl:-mt-6 xl:mb-7"
+              width={624}
+              height={20}
+              alt="Curve"
+            />
+            <p className="body-1 max-w-[600px] mx-auto mb-6 text-n-2 lg:mb-8">
+              We use an entrepreneurial approach to get you to market fast. Our
+              clients' businesses are at all stages and sizes, we build new
+              product ideas for Fortune 500 corporations to early-stage startups
+              and everything in between.
+            </p>
+            <Button href="/#contact" white>
+              contact us
+            </Button>
+          </div>
+        </div>
+
+        {/*         
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6"> {` `}
-            Redefining Reality One Algorithm at a Time!{" "}
+            Scale Your Business One Algorithm at a Time!{" "}
             <span className="inline-block relative">
               Beyndtech{" "}
               <img
@@ -36,13 +72,13 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Unleash the power of AI within Beyndtech. Upgrade your productivity
-            with Beyndtech, the go-to software development company.
+          We use an entrepreneurial approach to get you to market fast. Our clients' businesses are at all stages and sizes, we build new product ideas for Fortune 500 corporations to early-stage startups and everything in between.
           </p>
           <Button href="/pricing" white>
             contact us
           </Button>
-        </div>
+        </div> */}
+
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
             <div className="relative bg-n-8 rounded-[1rem]">

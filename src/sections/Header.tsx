@@ -6,7 +6,7 @@ import Button from "../components/Button";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "../components/Header";
 import { useState } from "react";
-import Logo from "../components/Logo";
+import logo from "../assets/logo.svg"
 
 const Header = () => {
   const pathname = useLocation();
@@ -37,7 +37,7 @@ const Header = () => {
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <a className="block w-[12rem] xl:mr-8" href="/">
-          <Logo w={100} h={"auto"} w2={14} h2={"auto"}/>
+          <img src={logo} alt="beyndtech's logo" width={100} />
         </a>
 
         <nav

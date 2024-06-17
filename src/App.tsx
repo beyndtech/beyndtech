@@ -7,6 +7,7 @@ import Pricing from "./sections/Pricing";
 import Roadmap from "./sections/Roadmap";
 import Footer from "./components/Footer";
 import ButtonGradient from "./assets/svg/ButtonGradient";
+import Contact from "./sections/Contact";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Services />
         <Pricing />
         <Roadmap />
+        <Contact />
         <Footer />
       </div>
 

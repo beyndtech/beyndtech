@@ -4,7 +4,7 @@ import Button from "../components/Button";
 
 const PricingList = () => {
   return (
-    <div className="flex gap-[1rem] max-lg:flex-wrap">
+    <section id="pricing" className="flex gap-[1rem] max-lg:flex-wrap">
       {pricing.map((item) => (
         <div
           key={item.id}
@@ -29,10 +29,10 @@ const PricingList = () => {
 
           <Button
             className="w-full mb-6"
-            href={item.price ? "/pricing" : "mailto:contact@jsmastery.pro"}
+            href="#contact"
             white={!!item.price}
           >
-            {item.price ? "Get started" : "Contact us"}
+            Contact us
           </Button>
 
           <ul>
@@ -41,14 +41,14 @@ const PricingList = () => {
                 key={index}
                 className="flex items-start py-5 border-t border-n-6"
               >
-                <img src={check} width={24} height={24} alt="Check" />
-                <p className="body-2 ml-4">{feature}</p>
+                <img src={check} width={22} height={22} alt="Check" />
+                <p className="body-1 ml-4">{feature}</p>
               </li>
             ))}
           </ul>
         </div>
       ))}
-    </div>
+    </section>
   );
 };
 

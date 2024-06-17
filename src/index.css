@@ -87,24 +87,7 @@
   @apply rotate-[-360deg]
 }
 
-
-.flames {
-  position: absolute;
-  bottom: 0;
-  left: 17.8%;
-  animation: flameAnimation 1.3s ease-in-out infinite;
-}
-
-@keyframes flameAnimation {
-  0%, 100% {
-    transform: translateY(-30%) scaleY(0.3);
-    opacity: 0;
-  }
-  50%, 60% {
-    transform: translateY(35%) scaleY(1.7);
-    opacity: 1;
-  }
-  90% {
-    opacity: 1;
-  }
+input::placeholder, textarea::placeholder {
+  opacity: 0.4;
+  font-size: .8rem;
 }
