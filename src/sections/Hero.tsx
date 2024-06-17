@@ -20,7 +20,7 @@ const Hero = () => {
       customPaddings
       id="hero"
     >
-      <div className="container relative" ref={parallaxRef}>
+      <div className="w-full px-12 max-sm:px-5 relative" ref={parallaxRef}>
         <div className="relative z-1 w-full h-[80vh] rounded-[20px] overflow-hidden mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[8.25rem]">
           <video
             className="absolute top-0 left-0 w-full h-full object-cover"
@@ -31,53 +31,37 @@ const Hero = () => {
             playsInline
           ></video>
 
-          <div className="relative z-1 bg-[#01010280] flex flex-col items-center justify-center w-full h-full mx-auto text-center">
-            <h1 className="h1 mb-6">
+          <div className="relative px-1 z-1 bg-[#01010280] flex flex-col items-center justify-center w-full h-full mx-auto text-center">
+            <h1 className="h1 max-sm:text-[45px] mb-6 max-sm:mb-2">
               {" "}
               {` `}
-              Scale Your Business <br /> One Algorithm at a Time!{" "}
+              Scale Your Business <br className="max-sm:hidden" /> One{" "}
+              <span className="max-sm:text-xl max-sm:font-light max-sm:block pt-4 max-sm:font-grotesk">
+                Algorithm at a Time!
+              </span>{" "}
             </h1>
             <img
               src={curve}
-              className="w-[55%] h-5 xl:-mt-6 xl:mb-7"
+              className="w-[55%] h-5 xl:-mt-6 xl:mb-7 max-sm:w-[90%] max-sm:h-1 max-sm:mb-2"
               width={624}
               height={20}
               alt="Curve"
             />
-            <p className="body-1 max-w-[600px] mx-auto mb-6 text-n-2 lg:mb-8">
+            <p className="body-1 max-w-[600px] mx-auto mb-6 text-n-2 lg:mb-8 max-sm:hidden">
               We use an entrepreneurial approach to get you to market fast. Our
               clients' businesses are at all stages and sizes, we build new
               product ideas for Fortune 500 corporations to early-stage startups
               and everything in between.
+            </p>
+            <p className="text-[17px] max-sm:block hidden my-8 font-grotesk text-white/80">
+              Limitless Satisfaction Beyond Utopia. <br /> Build Business
+              Software That Scales.
             </p>
             <Button href="/#contact" white>
               contact us
             </Button>
           </div>
         </div>
-
-        {/*         
-        <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
-          <h1 className="h1 mb-6"> {` `}
-            Scale Your Business One Algorithm at a Time!{" "}
-            <span className="inline-block relative">
-              Beyndtech{" "}
-              <img
-                src={curve}
-                className="absolute top-full left-0 w-full xl:-mt-2"
-                width={624}
-                height={28}
-                alt="Curve"
-              />
-            </span>
-          </h1>
-          <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-          We use an entrepreneurial approach to get you to market fast. Our clients' businesses are at all stages and sizes, we build new product ideas for Fortune 500 corporations to early-stage startups and everything in between.
-          </p>
-          <Button href="/pricing" white>
-            contact us
-          </Button>
-        </div> */}
 
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
