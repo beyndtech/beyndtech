@@ -34,7 +34,7 @@ const Services = () => {
 
             <div className="relative z-1 max-w-[20rem] ml-auto">
               <h4 className="h4 mb-4">Who We Are</h4>
-              <p className="body-1 mb-[3rem] text-n-3">
+              <p className="body-1 mb-[3rem] text-n-3 font-grotesk">
               Beyndtech offers enterprise-scale software and product development services that allow organizations to innovate quickly, and easily create and launch powerful user experiences that modernize your brand. Partnering with Beyndtech provides customers a full-service team to solve complex technology problems with proven solutions, including cutting-edge AI API integrations.
               </p>
               <ul className="body-2">
