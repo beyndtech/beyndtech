@@ -23,9 +23,9 @@ const Benefits = () => {
               }}
               key={item.id}
             >
-              <div className="relative z-2 flex flex-col min-h-[22rem] px-[1.5rem] py-12 pointer-events-none">
+              <div className="relative z-2 flex flex-col min-h-[22rem] px-[1.2rem] py-12 pointer-events-none">
                 <h5 className="h5 mb-5">{item.title}</h5>
-                <p className="body-1 mb-6 text-n-3 leading-7">{item.text}</p>
+                <p className="text-sm max-sm:text-base mb-6 text-n-4 leading-7">{item.text}</p>
                 <div className="flex items-center mt-auto">
                   <img
                     src={item.iconUrl}

@@ -21,10 +21,10 @@ const Services = () => {
         />
 
         <div className="relative">
-          <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
+          <div className="relative z-1 flex items-center h-[39rem] max-sm:h-[49rem] mb-5 px-4 py-10 border border-n-1/10 rounded-3xl overflow-hidden lg:p-16 xl:h-[46rem]">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
               <img
-                className="w-full h-full object-cover md:object-right"
+                className="w-full h-full object-cover md:object-right max-sm:brightness-50"
                 width={800}
                 alt="Smartest AI"
                 height={730}
@@ -32,16 +32,19 @@ const Services = () => {
               />
             </div>
 
-            <div className="relative z-1 max-w-[20rem] ml-auto">
+            <div className="relative z-1 w-full max-w-[24rem] ml-auto">
               <h4 className="h4 mb-4">Who We Are</h4>
-              <p className="body-1 mb-[3rem] text-n-3 font-grotesk">
-              Beyndtech offers enterprise-scale software and product development services that allow organizations to innovate quickly, and easily create and launch powerful user experiences that modernize your brand. Partnering with Beyndtech provides customers a full-service team to solve complex technology problems with proven solutions, including cutting-edge AI API integrations.
+              <p className="text-sm max-sm:text-base mb-[2rem] text-n-4">
+              Beyndtech offers enterprise-scale software and product development services that allow organizations to innovate quickly, and easily create and launch powerful user experiences that modernize your brand.
+              </p>
+              <p className="text-sm max-sm:text-base mb-[3rem] text-n-4">
+              Partnering with Beyndtech provides customers a full-service team to solve complex technology problems with proven solutions, including cutting-edge AI API integrations.
               </p>
               <ul className="body-2">
                 {["Timeframe Adherence", "Appealing User Experience", "Perfect Pricing"].map((item, index) => (
                   <li
                     key={index}
-                    className="flex items-start py-4 border-t border-n-6"
+                    className="flex items-start py-4 max-sm:py-2 border-t border-n-6"
                   >
                     <img width={24} height={24} src={check} />
                     <p className="ml-4">{item}</p>

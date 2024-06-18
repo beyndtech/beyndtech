@@ -78,15 +78,15 @@ export default {
       addBase({});
       addComponents({
         ".container": {
-          "@apply max-w-[77.5rem] mx-auto px-5 md:px-10 lg:px-15 xl:max-w-[87.5rem]":
+          "@apply max-w-[77.5rem] mx-auto px-2 md:px-10 lg:px-15 xl:max-w-[87.5rem]":
             {},
         },
         ".h1": {
-          "@apply font-semibold text-[2.5rem] leading-[3.25rem] md:text-[2.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem]":
+          "@apply font-semibold text-[2rem] leading-[3.25rem] md:text-[2.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem]":
             {},
         },
         ".h2": {
-          "@apply text-[1.75rem] leading-[2.5rem] md:text-[2rem] md:leading-[2.5rem] lg:text-[2.5rem] lg:leading-[3.5rem] xl:text-[3rem] xl:leading-tight":
+          "@apply text-[1.5rem] leading-[2.5rem] md:text-[2rem] md:leading-[2.5rem] lg:text-[2.5rem] lg:leading-[3.5rem] xl:text-[3rem] xl:leading-tight":
             {},
         },
         ".h3": {
@@ -102,11 +102,11 @@ export default {
           "@apply font-semibold text-lg leading-8": {},
         },
         ".body-1": {
-          "@apply text-[0.8rem] leading-[1.5rem] lg:text-[.87rem] lg:leading-[1.5rem]":
+          "@apply text-[0.8rem] leading-[1.5rem] lg:text-[1rem] lg:leading-[1.5rem]":
             {},
         },
         ".body-2": {
-          "@apply font-light text-[0.875rem] leading-6 md:text-base": {},
+          "@apply font-light text-[1rem] leading-6 md:text-base": {},
         },
         ".caption": {
           "@apply text-sm": {},

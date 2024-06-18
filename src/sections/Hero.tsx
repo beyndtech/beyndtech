@@ -20,7 +20,7 @@ const Hero = () => {
       customPaddings
       id="hero"
     >
-      <div className="w-full px-12 max-sm:px-5 relative" ref={parallaxRef}>
+      <div className="w-full px-12 max-sm:px-2 relative" ref={parallaxRef}>
         <div className="relative z-1 w-full h-[80vh] rounded-[20px] overflow-hidden mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[8.25rem]">
           <video
             className="absolute top-0 left-0 w-full h-full object-cover"
@@ -47,7 +47,7 @@ const Hero = () => {
               height={20}
               alt="Curve"
             />
-            <p className="body-1 max-w-[600px] mx-auto mb-6 text-n-2 lg:mb-8 max-sm:hidden">
+            <p className="body-1 max-w-[620px] mx-auto mb-6 text-n-2 lg:mb-8 max-sm:hidden">
               We use an entrepreneurial approach to get you to market fast. Our
               clients' businesses are at all stages and sizes, we build new
               product ideas for Fortune 500 corporations to early-stage startups

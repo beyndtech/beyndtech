@@ -26,9 +26,9 @@ export const PhotoChatMessage = () => {
 
 export const PhotoChatMessage2 = () => {
   return (
-    <div className="absolute top-8 right-8 z-4 max-w-[18rem] py-6 px-4 text-gray-400 border-2 border-[#2DE8CA] bg-black rounded-t-3xl rounded-bl-3xl font-code text-base lg:top-16 lg:right-[8.75rem] lg:max-w-[17.5rem]">
+    <div className="absolute top-8 right-8 max-sm:right-2 z-4 max-w-[18rem] py-7 px-3 text-gray-400 border-[1.5px] border-[#2DE8CA] bg-black rounded-t-3xl rounded-bl-3xl font-code text-base lg:top-16 lg:right-[8.75rem] lg:max-w-[17.5rem]">
       Hey Beyndtech, I want a SAAS cross platform app.
-      <ChatBubbleWing className="absolute left-full bottom-0" />
+      <ChatBubbleWing className="absolute left-full bottom-0 max-sm:hidden" />
     </div>
   );
 };
